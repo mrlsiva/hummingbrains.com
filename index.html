@@ -26,13 +26,26 @@
             height: 100vh;
             background: #410078;
         }
+        
+        @media (max-width: 767.98px) {
+            .mobile {
+                display: none;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .desktop {
+                display: none;
+            }
+        }
     </style>
 </head>
 
 <body>
 
     <div class="container-fluid p-0">
-        <img src="images/Landing1.jpg?v1" class="mx-auto img-responsive" alt="Humming brains landing image">
+        <img src="images/Landing1.jpg?v1" class="mx-auto img-responsive mobile" alt="Humming brains landing image">
+        <img src="images/mobile.jpg" class="mx-auto img-responsive desktop" alt="Humming brains landing image">
     </div>
 
 </body>
